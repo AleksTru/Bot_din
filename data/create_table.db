@@ -1,0 +1,8 @@
+CREATE TABLE
+users(
+    "tg_id" INT UNIQUE PRIMARY KEY,
+    "uuid" VARCHAR(50)COMMENT 'ID юзера в Telegram',
+    "name" VARCHAR(60),
+    "dinner" BOLLEAN NULL,
+    "launch" BOLLEAN NULL
+)

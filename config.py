@@ -1,0 +1,4 @@
+import os
+
+#DATABASE = str(os.getenv('DATABASE'))
+API_TOKEN = '6890459593:AAHvaUzLSOu7w845Sm1nuXHGw2EGA7nrLa0'
